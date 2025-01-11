@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 # Customize with your own S3 bucket and DynamoDB table if you want to use a Remote Backend for States
