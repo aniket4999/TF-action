@@ -2,7 +2,7 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-# Customize with your own S3 bucket and DynamoDB table if you want to use a Remote Backend for State
+# Customize with your own S3 bucket and DynamoDB table if you want to use a Remote Backend for States
 terraform {
   backend "s3" {
     bucket         = "deletetest25"     
