@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 provider "aws" {
   region = "eu-west-1"
 }
@@ -20,3 +21,6 @@ resource "aws_instance" "data01" {
     Name = "CICD"
   }
 }
+=======
+#test
+>>>>>>> 4114fa57bfd81aeaf25ae847838463228dc5637a
