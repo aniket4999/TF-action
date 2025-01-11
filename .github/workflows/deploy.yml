@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Pulls the latest version of your code from the GitHub repositorys
+      # Pulls the latest version of your code from the GitHub repositoryss
       - name: Checkout code
         uses: actions/checkout@v2
 
